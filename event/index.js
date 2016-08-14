@@ -1,6 +1,6 @@
 
 
-let xEvent = {
+const xEvent = {
 
 	addEventListener (ev, handler) {
 		let allEvents = this.bindEvents || this.bindEvent = {},
@@ -37,4 +37,6 @@ let xEvent = {
 		}
 	}
 
-}
+};
+
+export default xEvent;
